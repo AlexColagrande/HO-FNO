@@ -1,0 +1,27 @@
+{
+  "name": "polynomial_source_poisson_p1",
+  "description": "Polynomial-Source Poisson dataset. Inputs are p independent band-limited random Fourier fields. For p=1, the target solves the periodic Poisson equation -Delta v = u_1 - mean(u_1).",
+  "degree": 1,
+  "resolution": 64,
+  "train_samples": 1000,
+  "test_samples": 200,
+  "input_shape": [
+    64,
+    64,
+    1
+  ],
+  "target_shape": [
+    64,
+    64,
+    1
+  ],
+  "k_min": 8.0,
+  "k_max": 18.0,
+  "num_modes": 64,
+  "spectral_decay": 0.75,
+  "train_seed": 2101,
+  "test_seed": 2143,
+  "target_normalized": true,
+  "target_mean": 7.639755391893391e-14,
+  "target_std": 0.0003139328327961266
+}

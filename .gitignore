@@ -1,0 +1,18 @@
+/data
+/checkpoints
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.hdf5
+
+# Experiment outputs and logs
+/outputs/
+/wandb/
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# Misc cache/log files
+*.log
+.DS_Store
