@@ -1,14 +1,14 @@
 <div align="center">
   
-# [Higher-Order Fourier Neural Operator: Explicit Mode Mixer for Nonlinear PDEs](https://img.shields.io/badge/License-MIT-yellow.svg)
+# [Higher-Order Fourier Neural Operator: Explicit Mode Mixer for Nonlinear PDEs](https://arxiv.org/abs/2606.28122)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com)
-[![ArXiv](https://img.shields.io/static/v1?&logo=arxiv&label=Paper&message=Arxiv:HO-FNO&color=B31B1B)](https://arxiv.org)
+[![ArXiv](https://img.shields.io/static/v1?&logo=arxiv&label=Paper&message=Arxiv:HO-FNO&color=B31B1B)]([https://arxiv.org](https://arxiv.org/abs/2606.28122))
 
 **[Alex Colagrande](), [Paul Caillon](https://dauphine.psl.eu/recherche/cvtheque/profil/caillon-paul), [Eva Feillet](https://evajf.github.io/) and [Alexandre Allauzen](https://allauzen.github.io/)** <br>
 
 **[MILES Team](https://www.lamsade.dauphine.fr/wp/miles/) @ [LAMSADE](https://www.lamsade.dauphine.fr/) @ [Paris Dauphine-PSL](https://dauphine.psl.eu/)** <br>
 
-> This repository contains the official implementation of our [HO-FNO](https://arxiv.org):
+> This repository contains the official implementation of our [HO-FNO](https://arxiv.org/abs/2606.28122):
 
 A simple extension of the Fourier Neural Operator that bridges the gap with transformer models by explicitly incorporating the polynomial mode interactions observed in nonlinear PDEs, while preserving FNO’s efficiency.
 
@@ -75,6 +75,15 @@ Note: You must change the argument `--data-path` in the above script files to yo
 If you find our work relevant to your research or found it otherwise useful, please consider citing us
 
 ```
+@misc{colagrande2026higherorderfourierneuraloperator,
+      title={Higher-Order Fourier Neural Operator: Explicit Mode Mixer for Nonlinear PDEs}, 
+      author={Alex Colagrande and Paul Caillon and Eva Feillet and Alexandre Allauzen},
+      year={2026},
+      eprint={2606.28122},
+      archivePrefix={arXiv},
+      primaryClass={cs.CE},
+      url={https://arxiv.org/abs/2606.28122}, 
+}
 ```
 
 ## Contact
